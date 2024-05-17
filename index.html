@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Rider</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balthazar&family=Great+Vibes&family=Metal+Mania&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rosarivo:ital@0;1&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="jquery.js"></script>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link home"href="#"><h3>Home</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><h3>Start trip</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" ><h3>Destination</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" ><h3>Contact Us</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" >
+                        <img src="image 2.png" class="nav_img">
+                        <p>My Rider Buddy</p>
+                    </a>
+                </li>
+                </ul>
+                <form class="d-flex">
+                    <div class="search_box">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="form-control m-0 p-0" type="search" placeholder="Search" aria-label="Search">
+                    </div>
+                    <div class="login">
+                        <i class="fa-solid fa-user"></i>
+                        <p>LOG IN</p>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </nav>
+    
+    <section>
+        <div class="main1">
+            <img src="image 1.png" class="main_img">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-12 ">
+                    <div class="row slide1 slide_bar"> 
+                        <div class="col-md-12">
+                            <div class="slide_img">
+                                <img src="Rectangle 4.png" class="d-block" alt="...">
+                                <p class="des">Search <br> Destination</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="slide_img">
+                                <img src="Rectangle 5.png" class="d-block" alt="...">
+                                <p class="des">Find travel <br> partners</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="slide_img">
+                                <img src="Rectangle 6.png" class="d-block" alt="...">
+                                <p class="des">Get<br>connected</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="slide_img">
+                                <img src="Rectangle 8.png" class="d-block" alt="...">
+                                <p class="des">Share<br> experience</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="slide_img">
+                                <img src="Rectangle 4.png" class="d-block" alt="...">
+                                <p class="des">Search <br> Destination</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="slide_img">
+                                <img src="Rectangle 4.png" class="d-block" alt="...">
+                                <p class="des">Search <br> Destination</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="slide_img">
+                                <img src="Rectangle 5.png" class="d-block" alt="...">
+                                <p class="des">Find travel <br> partners</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="slide_img">
+                                <img src="Rectangle 6.png" class="d-block" alt="...">
+                                <p class="des">Get<br>connected</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="intro">
+                            <h3 class="hello">Hello <br> Buddy!</h3>
+                            <p>Welcome to my Bike Rider Buddy!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <section class="content3">
+        <img src="Rectangle 9.png" class="section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="content2 d-flex text-center">
+                        <div class="col-xl-12">
+                            <p class="fuel">Fuel your wanderlust , create and share memories <br> and plan your trips with us.</p>
+                        </div>
+                        <div class="col-xl-4">
+                            <button class="trip">Plan your trip</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="trip_plan">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="disc">Discover <br><h3 class="your">Your next great escape</h3></h1>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container"> -->
+            <div class="row">
+                <div class="col-lg-12 col-md-12 cd-sm-12 col-12">
+                    <div class="row slide_dest">
+                        <div class="col-lg-6">
+                            <div class="card holi">
+                                <h2 class="num">01</h2>
+                                <img src="Rectangle 12.png" alt="">
+                                <p>Mountains</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="card holi holi1">
+                                <h2 class="num sec">02</h2>
+                                <img src="Rectangle 13.png" alt="" >
+                                <p>Beaches</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="card holi">
+                                <h2 class="num">03</h2>
+                                <img src="Rectangle 14.png" alt="">
+                                <p>Wild Escapes</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 stop">
+                            <div class="card holi holi1">
+                                <h2 class="num sec">04</h2>
+                                <img src="Rectangle 15.png" alt=""  >
+                                <p>Historical</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="card holi">
+                                <h2 class="num">05</h2>
+                                <img src="Rectangle 12.png" alt="">
+                                <p>Mountains</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="card holi holi1">
+                                <h2 class="num sec">06</h2>
+                                <img src="Rectangle 13.png" alt="" >
+                                <p>Beaches</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="card holi">
+                                <h2 class="num">07</h2>
+                                <img src="Rectangle 14.png" alt="">
+                                <p>Wild Escapes</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 stop">
+                            <div class="card holi holi1">
+                                <h2 class="num sec">08</h2>
+                                <img src="Rectangle 15.png" alt=""  >
+                                <p>Historical</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section >
+        <div class="container ">
+                <div class="row">
+                    <div class="col-lg-9 header5">
+                        <h1 class="disc">Discover <br> <h1 class="your">Your perfect travel buddy</h1> </h1>
+                    </div>
+                    <div class="col-lg-3 moun">              
+                        <h3>Mountains</h3> 
+                    </div>
+                </div>
+            
+        </div>
+        <div class="testomial">
+            <div class="container">
+                <div class="persons d-flex">
+                    <div class="testom1">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <div class="testo">
+                                    <div class="card ">
+                                        <img src="Rectangle 18.png" alt="" class="imgss">
+                                    </div>
+                                </div>
+                                <div class="row justify-center">
+                                    <div class="col-lg-10 col-md-6 col-sm-6 col-6 text_box">
+                                        <div class="describe">
+                                            <h4>Himachal Trip</h4>
+                                            <div class="duration">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                                <p>8 feb 2024 - 15 feb 2024</p>
+                                            </div>
+                                            <p class="pura">I'm looking for a travel<p class="extra"> buddy to discover the hidden </p>....<b>know more</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <div class=" testo testo1">
+                                    <div class="card">
+                                        <img src="Rectangle 19.png" alt="" class="imgss1">
+                                    </div>
+                                </div>
+                                
+                                <div class="row justify-center">
+                                    <div class="col-lg-10 col-md-6 col-sm-6 col-6 text_box">
+                                        <div class="describe">
+                                            <h4>Exploring Ladakh</h4>
+                                            <div class="duration">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                                <p>8 feb 2024 - 15 feb 2024</p>
+                                            </div>
+                                            <p class="pura">I'm looking for a travel<p class="extra"> buddy to discover the hidden </p>....<b>know more</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <div class="testo">
+                                    <div class="card ">
+                                        <img src="Rectangle 23.png" alt="" class="imgss falt">
+                                    </div>
+                                </div>
+                                <div class="row justify-center">
+                                    <div class="col-lg-10 col-md-6 col-sm-6 col-6 text_box">
+                                        <div class="describe">
+                                            <h4>Exploring Gujrat</h4>
+                                            <div class="duration">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                                <p>8 feb 2024 - 15 feb 2024</p>
+                                            </div>
+                                            <p class="pura"> I'm looking for a travel<p class="extra"> buddy to discover the hidden </p>....<b>know more</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6 nosee">
+                                <div class="testo">
+                                    <div class="card ">
+                                        <img src="Rectangle 20.png" alt="" class="imgss img_row1 nichee">
+                                    </div>
+                                </div>
+                                <div class="row justify-center">
+                                    <div class="col-lg-10 col-md-6 col-sm-6 col-6 text_box">
+                                        <div class="describe">
+                                            <h4>Manali Trip</h4>
+                                            <div class="duration">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                                <p>8 feb 2024 - 15 feb 2024</p>
+                                            </div>
+                                            <p class="pura">I'm looking for a travel<p class="extra"> buddy to discover the hidden </p>....<b>know more</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6 noseee">
+                                
+                                    <div class=" testo testo1">
+                                        <div class="card">
+                                            <img src="Rectangle 21.png" alt="" class="imgss1 img_row">
+                                        </div>
+                                    </div>
+                                    <div class="row justify-center">
+                                        <div class="col-lg-10 col-md-6 col-sm-6 col-6 text_box">
+                                            <div class="describe">
+                                                <h4>Himachal Trip</h4>
+                                                <div class="duration">
+                                                    <i class="fa-regular fa-calendar-days"></i>
+                                                    <p>8 feb 2024 - 15 feb 2024</p>
+                                                </div>
+                                                <p>I'm looking for a travel<p class="extra"> buddy to discover the hidden </p>....<b>know more</b></p>
+                                            </div>
+                                        </div>
+                                    </div> 
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6 noseee">
+                                <div class="nosee">
+                                    <div class="testo ">
+                                        <div class="card ">
+                                            <img src="Rectangle 22.png" alt="" class="imgss img_row1">
+                                        </div>
+                                    </div>
+                                    <div class="row justify-center">
+                                        <div class="col-lg-10 col-md-6 col-sm-6 col-6 text_box">
+                                            <div class="describe">
+                                                <h4>Himachal Trip</h4>
+                                                <div class="duration">
+                                                    <i class="fa-regular fa-calendar-days"></i>
+                                                    <p>8 feb 2024 - 15 feb 2024</p>
+                                                </div>
+                                                <p>I'm looking for a travel<p class="extra"> buddy to discover the hidden </p>....<b>know more</b></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testom1">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                                <div class="nosee">
+                                    <div class="testo">
+                                        <div class="card ">
+                                            <img src="Rectangle 18.png" alt="" class="imgss">
+                                        </div>
+                                    </div>
+                                    <div class="row justify-center">
+                                        <div class="col-lg-10 col-md-6 col-sm-6 col-6 text_box">
+                                            <div class="describe">
+                                                <h4>Himachal Trip</h4>
+                                                <div class="duration">
+                                                    <i class="fa-regular fa-calendar-days"></i>
+                                                    <p>8 feb 2024 - 15 feb 2024</p>
+                                                </div>
+                                                <p>I'm looking for a travel<p class="extra"> buddy to discover the hidden </p>....<b>know more</b></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                                <div class="nosee">
+                                    <div class=" testo testo1">
+                                        <div class="card">
+                                            <img src="Rectangle 19.png" alt="" class="imgss1 ">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row justify-center">
+                                        <div class="col-lg-10 col-md-6 col-sm-6 col-6 text_box">
+                                            <div class="describe">
+                                                <h4>Himachal Trip</h4>
+                                                <div class="duration">
+                                                    <i class="fa-regular fa-calendar-days"></i>
+                                                    <p>8 feb 2024 - 15 feb 2024</p>
+                                                </div>
+                                                <p>I'm looking for a travel<p class="extra"> buddy to discover the hidden </p>....<b>know more</b></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+                                
+                                
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6 upss ">
+                                <div class="testo">
+                                    <div class="card ">
+                                        <img src="Rectangle 23.png" alt="" class="imgss">
+                                    </div>
+                                </div>
+                                <div class="row justify-center">
+                                    <div class="col-lg-10 col-md-6 col-sm-6 col-6 text_box">
+                                        <div class="describe">
+                                            <h4>Himachal Trip</h4>
+                                            <div class="duration">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                                <p>8 feb 2024 - 15 feb 2024</p>
+                                            </div>
+                                            <p>I'm looking for a travel<p class="extra"> buddy to discover the hidden </p>....<b>know more</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6 upss">
+                                <div class="testo">
+                                    <div class="card ">
+                                        <img src="Rectangle 20.png" alt="" class="imgss img_row1 niche nicheee">
+                                    </div>
+                                </div>
+                                <div class="row justify-center">
+                                    <div class="col-lg-10 col-md-6 col-sm-6 col-6 text_box">
+                                        <div class="describe">
+                                            <h4>Himachal Trip</h4>
+                                            <div class="duration">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                                <p>8 feb 2024 - 15 feb 2024</p>
+                                            </div>
+                                            <p>I'm looking for a travel<p class="extra"> buddy to discover the hidden </p>....<b>know more</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6  noseee">
+                                <div class=" testo testo1">
+                                    <div class="card">
+                                        <img src="Rectangle 21.png" alt="" class="imgss1 img_row falt">
+                                    </div>
+                                </div>
+                                
+                                <div class="row justify-center">
+                                    <div class="col-lg-10 col-md-6 col-sm-6 col-6 text_box">
+                                        <div class="describe">
+                                            <h4>Himachal Trip</h4>
+                                            <div class="duration">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                                <p>8 feb 2024 - 15 feb 2024</p>
+                                            </div>
+                                            <p>I'm looking for a travel<p class="extra"> buddy to discover the hidden </p>....<b>know more</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6  noseee">
+                                <div class="testo">
+                                    <div class="card ">
+                                        <img src="Rectangle 22.png" alt="" class="imgss img_row1 falt">
+                                    </div>
+                                </div>
+                                <div class="row justify-center">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 text_box">
+                                        <div class="describe">
+                                            <h4>Himachal Trip</h4>
+                                            <div class="duration">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                                <p>8 feb 2024 - 15 feb 2024</p>
+                                            </div>
+                                            <p>I'm looking for a travel<p class="extra"> buddy to discover the hidden </p>....<b>know more</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="seg">
+            <div class="container">
+                <div class="row">
+                    <div class="discover_all">
+                        <div class="col-lg-4">
+                            <div class="discover_all">
+                                <button class="all_btn trip">Discover all</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="options">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-12">
+                        <div class="adv">
+                            <div class="col-lg-2 col-md-3 col-4">
+                                <div class="bord">
+                                    <img src="Vector.png" class="photo">
+                                    <p>Buy and sell</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-4">
+                                <div class="bord">
+                                    <img src="Group.png" class="photo">
+                                    <p>Rent</p>
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-4">
+                                <div class="bord">
+                                    <img src="path10706.png" class="photo">
+                                    <p>Create Groups</p>
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-4">
+                                <div class="bord">
+                                    <img src="Vector (2).png" class="photo">
+                                    <p>Insurance</p>
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-4">
+                                <div class="bord">
+                                    <img src="Vector (1).png" class="photo">
+                                    <p>Share exp.</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="story">
+            <!-- <img src="Rectangle 49.png"> -->
+            <div class="container">
+                <div class="head10">
+                    <div class="row">
+                        <div class="col-lg-12 ">
+                            <div class="heading">
+                                <h1 class="happy">"Journeys and Stories"</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row g-1">
+                    <div class="col-lg-12">
+                        <div class="jarn">
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                                <div class="infomat">
+                                    <img src="Ellipse 48.png">
+                                    <h3>Juhi Parmar</h3>
+                                    <p>"It’s really nice to have a platform like MY RIDER BUDDY with lots of traveler's wanting to do the same as you, a real beautiful cultural exchange. You can meet people so easily and in a trustful way. We were four girls, from French, German and American backgrounds, without knowing each other from before. We spent an amazing week together, 2000km driving, camping on the way. We saw kangaroos, koalas, penguins and pelicans".  I had organized a trip to Mexico City last month and Quazi joined the trip from Victoria, BC. We spent 14 days of straight exploring, hiking, eating and drinking. Quite an amazing experience - all thanks to MY RIDER BUDDY.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-12" >
+                                <div class="infomat">
+                                    <img src="Ellipse 49.png">
+                                    <h3>Akash Singh</h3>
+                                    <p>"It’s really nice to have a platform like MY RIDER BUDDY with lots of traveler's wanting to do the same as you, a real beautiful cultural exchange. You can meet people so easily and in a trustful way. We were four girls, from French, German and American backgrounds, without knowing each other from before. We spent an amazing week together, 2000km driving, camping on the way. We saw kangaroos, koalas, penguins and pelicans".  I had organized a trip to Mexico City last month and Quazi joined the trip from Victoria, BC. We spent 14 days of straight exploring, hiking, eating and drinking. Quite an amazing experience - all thanks to MY RIDER BUDDY.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-12 " >
+                                <div class="infomat">
+                                    <img src="Ellipse 50.png">
+                                    <h3>Naina Jindal</h3>
+                                    <p>"It’s really nice to have a platform like MY RIDER BUDDY with lots of traveler's wanting to do the same as you, a real beautiful cultural exchange. You can meet people so easily and in a trustful way. We were four girls, from French, German and American backgrounds, without knowing each other from before. We spent an amazing week together, 2000km driving, camping on the way. We saw kangaroos, koalas, penguins and pelicans".  I had organized a trip to Mexico City last month and Quazi joined the trip from Victoria, BC. We spent 14 days of straight exploring, hiking, eating and drinking. Quite an amazing experience - all thanks to MY RIDER BUDDY.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+                                <div class="infomat">
+                                    <img src="Ellipse 48.png">
+                                    <h3>Yashika Verma</h3>
+                                    <p>"It’s really nice to have a platform like MY RIDER BUDDY with lots of traveler's wanting to do the same as you, a real beautiful cultural exchange. You can meet people so easily and in a trustful way. We were four girls, from French, German and American backgrounds, without knowing each other from before. We spent an amazing week together, 2000km driving, camping on the way. We saw kangaroos, koalas, penguins and pelicans".  I had organized a trip to Mexico City last month and Quazi joined the trip from Victoria, BC. We spent 14 days of straight exploring, hiking, eating and drinking. Quite an amazing experience - all thanks to MY RIDER BUDDY.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div></div>
+        </div>
+    </section>
+    <section class="footer1">
+        <footer id="Contact">
+          <div class="container">
+            <div class="footer2">
+              <div class="row">
+                <div class="col-lg-3 col-sm-6 col-12 col-xl-3">
+                  <h5 class="quicklinks quicklinks1"><b>My Rider Buddy</b></h5>
+                  <ul class="foot">
+                    <li><a>About us</a></li>
+                    <li><a>Find travel Buddy</a></li>
+                    <li><a>Plan Trips</a></li>
+                    <li><a>Discover places</a></li>
+                    <li><a>A.I Buddy</a></li>
+                    <li><a>Safety Tips</a></li>
+                    <li><a>Nearby Gataways</a></li>
+                    <li><a>Help</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 col-xl-3">
+                  <h5 class="quicklinks"><b>Explore</b></h5>
+                  <ul class="foot">
+                    <li><a>Search Destinations</a></li>
+                    <li><a>Find travel Buddy</a></li>
+                    <li><a>Get connected</a></li>
+                    <li><a>Buy and sell</a></li>
+                    <li><a>Rent</a></li>
+                    <li><a>Create Group</a></li>
+                    <li><a>Insurance</a></li>
+                    <li><a>Share Exp.</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 col-xl-3">
+                  <h5 class="quicklinks"><b>Policies</b></h5>
+                  <ul class="foot">
+                    <li><a>Privacy Policies</a></li>
+                    <li><a>Terms of use</a></li>
+                    <li><a>Accessibilty</a></li>
+                    <h5 class="quicklink"><b>Reach Out of us</b></h5>
+                    <li><a>Office Location</a></li>
+                    <li><a>7983584682</a></li>
+                    <li><a>info@Myriderbuddy.com</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 col-xl-3">
+                  <img src="winter landscape with ski lift.png" class="winter">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </footer>
+      </section>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+            $('#slider').change(function(){
+                var slide = $(this).value();
+                $('.jarn .infomat:nth-child(3)').css("margin-left",-slide*1 + '%')
+            })
+        })
+    //    $('.slide_bar').slick({
+    //     centerMode: true,
+    //     centerPadding: '60px',
+    //     slidesToShow: 4,
+    //     responsive: [
+    //         {
+    //         breakpoint: 768,
+    //         settings: {
+    //             arrows: false,
+    //             centerMode: true,
+    //             centerPadding: '40px',
+    //             slidesToShow: 4
+    //         }
+    //         },
+    //         {
+    //         breakpoint: 480,
+    //         settings: {
+    //             arrows: false,
+    //             centerMode: true,
+    //             centerPadding: '40px',
+    //             slidesToShow: 1
+    //         }
+    //         }
+    //     ]
+    //     });
+
+    $('.slide_bar ').slick({
+    lazyLoad: 'ondemand',
+    slidesToShow: 4,
+    slidesToScroll: 1
+    });
+    $('.slide_dest').slick({
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 4
+    });
+    $('.jarn').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1
+    });
+    $('.persons').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1
+    });
+    
+		
+    </script>
+</body>
+</html>

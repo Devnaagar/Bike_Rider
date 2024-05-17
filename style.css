@@ -1,0 +1,1048 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFF9F3;
+}
+.row{
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'manierregular-trial';
+    src: url('manier-regular-trial-bf650bbeaf2fb28-webfont.woff2') format('woff2'),
+         url('manier-regular-trial-bf650bbeaf2fb28-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.navbar{
+    font-family: 'manierregular-trial';
+    font-weight: 800;
+    font-style: normal;
+    position: sticky;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 45px;
+    z-index: 999;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: 81px;
+    border-radius: 20px;
+    position: fixed;
+    background: rgba(243, 230, 217, 0.2);
+}
+.login{
+    height: 70px;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+.container-fluid{
+    background-color: #F3E6D9;
+    height: 81px;
+    border-radius: 20px;
+    color: #3B3232;
+}
+
+.home{
+    color: coral;
+}
+
+.fa-user::before{
+   font-size: xx-large;
+   
+}
+.nav-item{
+    height: 65px;
+}
+
+h3{
+    padding: 10px;
+}
+
+.nav-link{
+    padding: 0px 8px;
+}
+
+.nav_img{
+    padding-left: 8px;
+    
+}
+.search_box{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid #523313;
+    background-color: #F3E6D9;
+    height: 40px;
+    margin-top: 15px;
+    width: 250px;
+}
+.form-control{
+    background-color: #F3E6D9;
+    border-radius: 20px;
+    border: none;
+}
+
+.fa-magnifying-glass:before{
+    margin: 0 10px;
+}
+
+.main_img{
+    margin-top: -102px; 
+    height: 120vh;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.slide1{
+    margin-top: -250px;
+    background-color: #47342E;
+    width: 60vw;
+    margin-left: 17%;
+    border-radius: 20px;
+    background: rgba(71, 52, 46, .8);
+    height: 220px;
+    font-family: 'GT America Trial Th';
+
+}
+
+.slide_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF9F3;
+    text-align: center;
+    justify-content: center;
+}
+
+.arrow_prev{
+    top: 130px;
+    left: 130px;
+}
+
+.arrow_prev::before{
+    font-size: 30px;
+}
+.arrow_next{
+    top: 130px;
+    right: 130px;
+}
+
+.arrow_next::before{
+    font-size: 30px;
+}
+
+.slide_img img{
+    margin-top: 10px;
+}
+
+.d-block{
+    margin-left: 10%;
+    width: 80%;
+}
+
+.des{
+    margin: 10px 0;
+}
+
+.intro{
+    display: none;
+    font-family: 'manierregular-trial';
+}
+
+.section2{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.content2{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -270px;
+    background: rgba(243, 230, 217, 0.8);
+    width: fit-content;
+    margin-left: 18%;
+
+}
+
+
+.fuel{
+    font-family: 'GT America Trial Th';
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+
+
+@font-face {
+    font-family: 'beyond_infinity_-_demoregular';
+    src: url('beyond-infinity-webfont.woff2') format('woff2'),
+         url('beyond-infinity-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.trip{
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    background-color: #331A01;
+    color: #FFF9F3;
+    font-size: x-large;
+    font-family: 'beyond_infinity_-_demoregular';
+    transition: 0.3s;
+}
+.trip:hover{
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+
+.slide_dest{
+    margin-top: 10px;
+    width: 98vw;
+    margin-left: 10px;
+    overflow: hidden;
+
+}
+
+.slick-track{
+    height: 600px ;
+}
+
+.card{
+    border: none;
+}
+
+
+.holi{
+    /* flex: 0 0 10%; */
+    padding-left: 20px;
+    border-left:2px solid #331A01;
+    margin-left: 25px;
+    transition: 0.3s;
+    height: 500px;
+    width: 90%;
+    background-color: #FFF9F3;
+    /* scroll-snap-align: start; */
+}
+
+.holi img{
+    height: 350px;
+    width: 90%;
+}
+
+.holi:hover{
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    cursor: pointer;
+
+
+}
+
+.num{
+    font-size: 70px;
+    font-family: 'manierregular-trial';
+    color: #A77E04;
+    margin-top: 10px;
+}
+
+.holi p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'GT America Trial Th';
+    font-weight: 600;
+}
+
+.holi1{
+    margin-top: 50px
+}
+
+.slick-next {
+    right: 10px;
+    z-index: 10;
+}
+
+.slick-prev{
+    left: 10px;
+    z-index: 10;
+    
+}
+
+.slick-next:before, .slick-prev:before {
+    font-family: slick;
+    /* font-size: 80px; */
+    line-height: 1;
+    opacity: .75;
+    color: burlywood;
+    -webkit-font-smoothing: antialiased;
+}
+.slidebar{
+    text-align: center;
+    margin-top: 15px;
+}
+.trips{
+    gap: 20px;
+    padding: 10px;
+    scroll-padding: 30px;
+}
+
+.testomial{
+    background-color: #F1F6FA;
+    margin-top: -50px;
+    z-index: -20;
+}
+
+
+.persons{
+    gap: 20px;
+    padding: 10px;
+    height: 170vh;
+
+}
+
+
+.testom1{
+    background-color: #F1F6FA;
+    margin-top: -50px;
+    flex-wrap: wrap;
+}
+
+.testo{
+    /* padding: 20px; */
+    margin-top: 140px;
+    z-index: 1;
+}
+
+.header5{
+    z-index: 10;
+}
+
+.disc{
+    margin-top: 80px;
+    font-family: 'beyond_infinity_-_demoregular';
+    margin-bottom: 0;
+    font-size: 80px;
+    margin-left: 40px;
+    color: #331A01;
+}
+
+.your{
+    font-family: 'manierregular-trial';
+    padding-top: 0;
+    font-size: 70px;
+    margin-left: 40px;
+}
+.moun{
+    display: flex;
+    align-items: end;
+    font-family: 'beyond_infinity_-_demoregular';
+    z-index: 999;
+    
+}
+.moun h3{
+    font-size: 80px;
+    border-left:2px solid #331A01;
+    z-index: 999;
+}
+
+
+.imgss{
+    width: 100%;
+    height: 350px;
+    /* margin-top: 50px; */
+    object-fit: cover;
+    z-index: 1;
+    margin-left: 10px;
+}
+
+.imgss1{
+    width: 100%;
+    height: 430px;
+    z-index: 1;
+    object-fit: cover;
+    margin-left: 10px;
+}
+.justify-center{
+    display: flex;
+    justify-content: center;
+    margin-left: 1px;
+}
+
+.text_box{
+    background: rgba(255,255,255,0.5);
+    border: 2px solid  black;
+    margin-top: -70px;
+    z-index: 10;
+    padding: 0;
+}
+
+.img_row{
+    margin-top: -100px;
+}
+
+.img_row1{
+    margin-top: -150px;
+}
+
+.describe{
+    text-align: center;
+    margin: 15px;
+    background-color: white;
+    color: #47342E;
+    font-family: 'manierregular-trial';
+}
+.describe p{
+    margin: 0;
+    font-size: small;
+    font-family: 'GT America Trial Th';
+}
+.duration{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.fa-calendar-days{
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+.seg{
+    background-color: #F1F6FA;
+    /* margin-top: 50px; */
+    margin-bottom: 30px;
+}
+.discover_all{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.all_btn{
+    height: 70px;
+    width: 300px;
+    /* border-radius: 10px; */
+    font-size: 40px;
+    
+}
+
+.options{
+
+    margin-bottom: 50px;
+}
+.bord{
+    border: 2px solid #331A01;
+    border-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+}
+
+.bord p{
+    font-size: 20px;
+    font-family: 'GT America Trial Th';
+    font-weight: 700;
+}
+.bord img{
+    height: 100px;
+    margin: 20px 0;
+
+}
+
+.adv{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    overflow-x: scroll;
+    gap: 20px;
+    
+}
+
+.adv::-webkit-scrollbar{
+    height: 10px;
+}
+
+.story{
+    background-image: url(Rectangle\ 49.png);
+    height: 640px;
+    color: #F1F6FA;
+}
+
+.head10{
+    color: #F1F6FA;
+    font-family: 'manierregular-trial';
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+
+.infomat{
+    margin: 10px 35px;
+    background: rgba(51, 35, 29, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.infomat img{
+    margin-top: 20px;
+}
+
+.infomat h3{
+    font-family: 'manierregular-trial';
+}
+.infomat p{
+    padding: 0px 20px;
+    margin-bottom: 5px;
+    font-size: small;
+    font-family: 'GT America Trial Th';
+}
+
+.jarn{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    overflow: hidden;
+    gap: 50px;
+    margin-top: 10px; 
+}
+
+.slider-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+
+    
+}
+
+
+.footer1{
+    margin-top: 10px;
+    background-color: #47342E;
+    color: #F1F6FA;
+    
+}
+
+@font-face {
+    font-family: 'GT America Trial Th';
+    font-style: normal;
+    font-weight: normal;
+    src: local('GT America Trial Th'), url('GT-America-Standard-Thin-Trial.woff') format('woff');
+    }
+
+.footer2{
+        font-family: 'GT America Trial Th';
+        /* font-style: normal;
+        font-weight: normal;
+        src: local('GT America Trial Th'), url('GT-America-Standard-Thin-Trial.woff') format('woff'); */
+}
+
+.footer2 a{
+    cursor: pointer;
+
+}
+
+.quicklinks{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.quicklink{
+    margin-top: 20px;
+}
+
+.foot{
+    list-style: none;
+    padding-left: 50px;
+}
+
+@media (min-width:481px) and (max-width:992px){
+    .navbar{
+        margin: 10px 10px;
+        width: 96vw;
+        height: 60px;
+        
+    }
+    .container-fluid{
+        height: 60px;
+        width: 100vw;
+    }
+    .col-lg-12{
+        padding: 0;
+        width: 98vw;
+    }
+    .des{
+        margin: 5px 0;
+        font-size:10px;
+    }
+    .main_img{
+        margin-top: -52px; 
+       height: 100vh;
+       width: 98vw;
+       object-fit: cover;
+    }
+    .slide1{
+        display: none;
+    }
+    .intro{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin-top: -350px;
+        color: white;
+        font-size: 40px;
+        margin-left: 30px;
+        font-family: 'manierregular-trial';
+        font-style: normal;
+    }
+
+    .intro h3{
+        font-size: 60px;
+    }
+
+    .content3{
+        margin-top: -10px;
+    }
+
+    .disc{
+        font-size: 50px;
+    }
+
+    .your{
+        font-size: 40px;
+    }
+    .moun{
+        display: none;
+    }
+
+    .content2{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: -9rem;
+        background-color: #F3E6D9;
+        width: 300px;
+        transform: scale(1.2);
+        margin-left: 30%;
+    
+    }
+
+    .fuel{
+        font-family: "Noto Sans", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        padding: 5px 5px;
+    }
+
+    .trip{
+        padding: 2px 2px;
+        margin-bottom: 15px;
+        box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+        background-color: #331A01;
+        color: #FFF9F3;
+        font-size: xx-small;
+        font-family: "Great Vibes";
+    }
+
+    .slide_dest{
+        height: 350px;
+    }
+    .holi{
+        margin-left: 10px;
+        height: 300px;
+    }
+    .num{
+        font-size: 40px;
+    }
+    .holi p {
+        font-size: small;
+    }
+    .text_box{
+        width: 100%;
+    }
+    .justify-center{
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .persons{
+        height: 550px;
+    }
+
+    .imgss{
+        height: 300px;
+    }
+    .imgss1{
+        height: 350px;
+    }
+    .describe{
+        font-size: small;
+        margin: 7px;
+    }
+    .fa-calendar-days{
+        padding: 5px 0;
+        margin-left: 5px;
+    }
+    .extra{
+        display: none;
+    }
+    .img_row{
+        margin-top: -100px;
+    }
+    
+    .img_row1{
+        margin-top: -150px;
+    }
+
+    .all_btn{
+        height: 50px;
+        width: 200px;
+        font-size: 27px;
+        margin-top: -20px;
+    }
+    .bord{
+        width: 150px;
+    }
+    .bord img{
+        height: 50px;
+        margin: 20px 0;
+    }
+    .bord p{
+        font-size: 20px;
+    }
+    
+    .jarn{
+        width: 100%;
+        height: 500px;
+        overflow: scroll;
+    }
+
+    .infomat{
+        margin-left: 0;
+    }
+
+    .infomat img{
+        width: 30%;
+    }
+    .infomat p {
+        font-size: 12px;
+    }
+    .winter{
+        width: 300px;
+    }
+
+    .text_box{
+        margin-left: 20px;
+    }
+    .falt{
+        margin-top: 0px;
+    }
+    .nosee{
+        display: none;
+    }
+    .nichee{
+        margin-top: -110px;
+    }
+    .nicheee{
+        margin-top: -20px;
+    }
+}
+
+
+
+@media (max-width:480px) {
+    .navbar{
+        margin: 10px 10px;
+        width: 95vw;
+        background: rgb(243, 230, 217,0.8)
+        /* background: rgba(255, 255, 255,0.9); */
+        
+    }
+    .navbar-toggler{
+        background-color: #FFF9F3;
+    }
+    .show{
+        background-color: #FFF9F3;
+        margin-top: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+        
+    }
+
+    .container-fluid{
+        height: 81px;
+        border-radius: 20px;
+        font-weight: bolder;
+        color: white;
+        /* background: rgba(243, 230, 217,0.1); */
+    }
+
+
+    
+    .login{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .login p{
+        display: none;
+    }
+    .fa-user::before{
+        font-size: xx-large;
+        margin-top: 20px;
+        color: #331A01; 
+    }
+    .search_box{
+        width: 200px;
+        border: 2px solid #331A01;
+        background-color: transparent;
+        opacity: 0.6;
+        color: #331A01;
+
+    }
+    .form-control{
+        background-color: transparent;
+        border-radius: 20px;
+        border: none;
+        opacity: 0.6;
+    }
+    .main_img{
+        margin-top: 10px; 
+        margin-left: 10px;
+        margin-right: 0;
+        border-radius: 20px;
+        height: 70vh;
+        width: 95vw;
+        object-fit: cover;
+   }
+   .slide1{
+    display: none;
+    }
+    .intro{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin-top: -150px;
+        color: white;
+        margin-left: 30px;
+        font-family: 'manierregular-trial';
+        font-style: normal;
+    }
+
+    .intro p{
+        font-family: 'GT America Trial Th';
+    }
+    .hello{
+        padding: 0;
+        font-weight: 500;
+    }
+
+    
+
+    .section2{
+        width: 100%;
+        margin-top: 15px;
+        padding: 0 10px;
+        border-radius: 20px;
+        height: 20vh;
+        object-fit: cover;
+    }
+
+    .content2{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: -7rem;
+        background-color: #F3E6D9;
+        width: 300px;
+        transform: scale(0.7);
+        margin-left: 10%;
+    
+    }
+
+    .fuel{
+        font-family: 'GT America Trial Th';
+        font-size: 12px;
+        font-weight: 300;
+        margin-bottom: 10px;
+        padding: 5px 5px;
+    }
+
+    .trip{
+        padding: 2px 2px;
+        margin-bottom: 15px;
+        box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+        background-color: #331A01;
+        color: #FFF9F3;
+        font-size: xx-small;
+        font-family: 'beyond_infinity_-_demoregular';
+    }
+    .disc{
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    .your{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .moun h3{
+        display: none;
+    }
+
+    .slide2{
+        color: #331A01;
+    }
+
+    .slide_dest{
+        height: 220px;
+    }
+    .holi{
+        padding-left: 5px;
+        border-left:2px solid #331A01;
+        transition: 0.3s;
+        color: #331A01;
+        margin: 0;
+        height: 200px;
+    }
+
+    .holi img{
+        height: 60%;
+    }
+
+    .holi:hover{
+        box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+        cursor: pointer;
+
+    }
+    .testom{
+        background-color: #F1F6FA;
+        margin-top: -15px;
+    }
+
+    .stop{
+        display: none;
+    }
+
+    .num{
+        font-size: 20px;
+    }
+    .holi p {
+        font-size: small;
+    }
+    .bord img{
+        height: 40px;
+        margin: 20px 0;
+    }
+    .bord p{
+        font-size: 12px;
+    }
+    .text_box{
+        width: 100%;
+        border: none;
+        margin: 0;
+        /* font-size: 10px; */
+
+
+    }
+    .describe{
+        margin: 2px;
+        font-size: x-small;
+
+    }
+
+    .describe h4{
+        font-size: 12px
+    }
+    .describe p{
+        font-size: xx-small;
+
+    }
+
+    .persons{
+        height: 800px;
+    }
+    .imgss,.imgss1{
+        width: 100%;
+        height: 200px;
+        padding: 2px;
+        border-radius: 10px;
+    }
+    .img_row{
+        margin-top: -100px;
+    }
+    .falt{
+        margin-top: -108px;
+    }
+
+    .upss{
+        margin-top: -100px;
+    }
+   
+    
+    .img_row1{
+        margin-top: -110px;
+    }
+    .all_btn{
+        height: 50px;
+        width: 100px;
+        font-size: 20px;
+        margin-top: -20px;
+    }
+    .noseee{
+        display: none;
+    }
+    .niche{
+        margin-top: 0px;
+    }
+
+    .bord{
+        width: 100px;
+        height: 150px;
+    }
+    .bord img{
+        height: 50px;
+        margin: 20px 0;
+    }
+    .bord p{
+        font-size: 15px;
+    }
+    .story{
+        display: none;
+    }
+
+
+    .infomat{
+        margin-left: 0px;
+        width: 250px;
+        height: 260px;
+    }
+    .infomat img{
+        width: 30%;
+    }
+    .infomat p {
+        font-size: 15px;
+    }
+    
+}
+
